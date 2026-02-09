@@ -1,24 +1,7 @@
 {
-    "name": "athphane/filament-editorjs",
+    "name": "hosseinesteki/filament-editorjs",
     "description": "This is my package filament-editorjs",
-    "keywords": [
-        "athphane",
-        "laravel",
-        "filament-editorjs"
-    ],
-    "homepage": "https://github.com/athphane/filament-editorjs",
-    "support": {
-        "issues": "https://github.com/athphane/filament-editorjs/issues",
-        "source": "https://github.com/athphane/filament-editorjs"
-    },
     "license": "MIT",
-    "authors": [
-        {
-            "name": "athphane",
-            "email": "athphane@gmail.com",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": "^8.3",
         "filament/filament": "^4.5|^5.0",
