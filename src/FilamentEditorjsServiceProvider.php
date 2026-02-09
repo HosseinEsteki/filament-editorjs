@@ -47,6 +47,15 @@ class FilamentEditorjsServiceProvider extends PackageServiceProvider
 
     public function packageBooted(): void
     {
+        // Langs Registration
+        $langPath = __DIR__ . '/../resources/lang';
+
+        if (is_dir($langPath)) {
+            $this->publishes([
+                $langPath => resource_path('lang/vendor/filament-editorjs'),
+            ], 'filament-editorjs-langs');
+        }
+
         // Asset Registration
         FilamentAsset::register(
             $this->getAssets(),
